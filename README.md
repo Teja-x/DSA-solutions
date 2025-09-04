@@ -22,6 +22,7 @@ Each topic has its own folder for clarity:
 | 🗂 Category | 📄 File | 🔍 Description |
 |------------|---------|----------------|
 | Arrays     | `FindDuplicatesInArray.java` | Finds all duplicate numbers in an array |
+| Arrays     | `TwoSum.java` | Returns indices of two numbers that sum to a target (hash map, O(n)) |
 | Strings     | `ReverseString.java` | Reverses the given string (character array) in-place |
 | Strings    | `ValidPalindrome  .java` | Validates if a string is a valid palindrome (ignores cases, symbols) |
 | Strings    | `FirstNonRepeatingCharacter.java` | Finds the index of the first non-repeating character |
