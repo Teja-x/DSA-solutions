@@ -21,6 +21,7 @@ Each topic has its own folder for clarity:
 
 | 🗂 Category | 📄 File | 🔍 Description |
 |------------|---------|----------------|
+| Arrays     | `ContainsDuplicate.java` | Checks if an array contains any duplicate element |
 | Arrays     | `FindDuplicatesInArray.java` | Finds all duplicate numbers in an array |
 | Arrays     | `TwoSum.java` | Returns indices of two numbers that sum to a target (hash map, O(n)) |
 | Strings     | `ReverseString.java` | Reverses the given string (character array) in-place |
