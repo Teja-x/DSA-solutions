@@ -24,6 +24,8 @@ Notes:
 - Always prefer length-prefix encoding when dealing with arbitrary characters.
 - This approach is safe, clean, and interview-approved.
 
+Author: Teja Nayani
+Date: September 7, 2025
 */
 
 import java.util.ArrayList;
