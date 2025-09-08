@@ -23,14 +23,19 @@ Each topic has its own folder for clarity:
 |------------|---------|----------------|
 | Arrays     | `ContainsDuplicate.java` | Checks if an array contains any duplicate element |
 | Arrays     | `FindDuplicatesInArray.java` | Finds all duplicate numbers in an array |
+| Arrays     | `LongestConsecutiveSequence.java` | Finds the length of the longest sequence of consecutive integers using a `HashSet` (O(n)). |
 | Arrays     | `TwoSum.java` | Returns indices of two numbers that sum to a target (hash map, O(n)) |
+| Arrays     | `TwoSumII.java` | Returns indices (1-based) of two numbers in sorted array that sum to a target using two pointers. |
+| Arrays     | `ThreeSum.java` | Finds all unique triplets that sum to 0 using sorting + two pointers, with duplicate skips. |
 | Arrays      | `ProductOfArrayExceptSelf.java` | For each index, returns product of all other elements without division (prefix/suffix products, O(n) time, O(1) extra space). |
 | Arrays      | `TopKFrequentElements.java`     | Finds the k most frequent elements (bucket sort O(n) or min-heap O(n log k)). |
+| Arrays | `ValidSudoku.java` | Checks if a given 9×9 Sudoku board is valid using row/column/box tracking (boolean arrays). |
 | Strings     | `ValidAnagram.java`             | Checks if two strings are anagrams (frequency count using hash map / count array; O(n) time). |
 | Strings     | `GroupAnagrams.java`            | Groups words that are anagrams using a hash map keyed by sorted string or char-count string key. |
 | Strings     | `ReverseString.java` | Reverses the given string (character array) in-place |
 | Strings    | `ValidPalindrome  .java` | Validates if a string is a valid palindrome (ignores cases, symbols) |
 | Strings    | `FirstNonRepeatingCharacter.java` | Finds the index of the first non-repeating character |
+| Strings    | `EncodeDecodeStrings.java` | Encodes a list of strings into one string and decodes it back (used for data transmission). |
 
 ---
 
