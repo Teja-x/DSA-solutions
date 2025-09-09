@@ -24,9 +24,11 @@ Each topic has its own folder for clarity:
 | Arrays     | `ContainsDuplicate.java` | Checks if an array contains any duplicate element |
 | Arrays     | `FindDuplicatesInArray.java` | Finds all duplicate numbers in an array |
 | Arrays     | `LongestConsecutiveSequence.java` | Finds the length of the longest sequence of consecutive integers using a `HashSet` (O(n)). |
+| Arrays | `BestTimeToBuyAndSellStock.java` | Calculates the maximum profit from a single buy-sell transaction by tracking the lowest price and maximum gain so far. |
 | Arrays     | `TwoSum.java` | Returns indices of two numbers that sum to a target (hash map, O(n)) |
 | Arrays     | `TwoSumII.java` | Returns indices (1-based) of two numbers in sorted array that sum to a target using two pointers. |
 | Arrays     | `ThreeSum.java` | Finds all unique triplets that sum to 0 using sorting + two pointers, with duplicate skips. |
+| Arrays | `FourSum.java` | Finds all unique quadruplets that sum to a given target using two nested loops + two pointers, with early pruning and duplicate handling. |
 | Arrays      | `ProductOfArrayExceptSelf.java` | For each index, returns product of all other elements without division (prefix/suffix products, O(n) time, O(1) extra space). |
 | Arrays      | `TopKFrequentElements.java`     | Finds the k most frequent elements (bucket sort O(n) or min-heap O(n log k)). |
 | Arrays | `ValidSudoku.java` | Checks if a given 9×9 Sudoku board is valid using row/column/box tracking (boolean arrays). |
