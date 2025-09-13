@@ -17,35 +17,22 @@ Date: June 9, 2025
 
 class ValidPalindrome {
     public boolean isPalindrome(String s) {
-        //StringBuilder sb = new StringBuilder(s);
-      
-        int p = 0, q = s.length() - 1;
-        //boolean flag = false;
-        
-        while(p <= q){
-            while(!Character.isLetterOrDigit(s.charAt(p)) && p<q){
-                p++;
+        int p1 = 0, p2 = s.length()-1;
+        while(p1<p2){
+            while(p1<p2 && !Character.isLetterOrDigit(s.charAt(p1))){
+                p1++;
             }
-            while(!Character.isLetterOrDigit(s.charAt(q)) && p<q){
-                q--;
+            while(p1<p2 && !Character.isLetterOrDigit(s.charAt(p2))){
+                p2--;
             }
-
-            /*if((Character.toLowerCase(s.charAt(p)) == Character.toLowerCase(s.charAt(q)))){
-                p++;
-                q--;
-                flag = true;
-            }else{
-                flag = false;
-                return flag;
-            }*/
-
-            if((Character.toLowerCase(s.charAt(p)) != Character.toLowerCase(s.charAt(q)))){
+            char c1 = Character.toLowerCase(s.charAt(p1));
+            char c2 = Character.toLowerCase(s.charAt(p2));
+            if(c1 != c2){
                 return false;
             }
-            p++;
-            q--;
-        }
-
+            p1++;
+            p2--;
+        }       
         return true;
     }
 }
