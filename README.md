@@ -70,6 +70,17 @@ Let’s grow together 💪
 | Strings    | `ValidPalindrome  .java` | Validates if a string is a valid palindrome (ignores cases, symbols) |
 | Strings    | `FirstNonRepeatingCharacter.java` | Finds the index of the first non-repeating character |
 | Strings    | `EncodeDecodeStrings.java` | Encodes a list of strings into one string and decodes it back (used for data transmission). |
+| Strings / Sliding Window | `LongestSubstringWithoutRepeatingChars.java` | Uses sliding window with character frequency map to track longest substring with unique characters. |
+| Strings | `MinWindowSubstring.java` | Finds the smallest window in `s` which contains all characters of `t` using sliding window and frequency array. |
+| Strings | `PermutationInString.java` | Checks if a permutation of `s1` exists as a substring in `s2` using fixed-size sliding window and frequency match. |
+| Strings | `FindAllAnagramsInString.java` | Finds all starting indices of anagrams of `p` in `s` using sliding window and character count matching. |
+| Two Pointers | `ContainerWithMostWater.java` | Uses two-pointer technique from both ends to find max water container formed by vertical lines. |
+| Two Pointers / Prefix Max | `TrappingRainWater.java` | Calculates total trapped water using two pointers and running left/right max heights. |
+| Strings / Two Pointers | `BackspaceStringCompare.java` | Compares two strings after processing backspaces using right-to-left traversal and skip counters. |
+| Arrays / In-place | `RemoveDuplicatesFromSortedArray.java` | Removes duplicates in sorted array in-place and returns new length using a write pointer. |
+| Sliding Window | `MinimumSizeSubarraySum.java` | Finds minimum length subarray with sum ≥ target using variable-sized sliding window. |
+| Prefix Sum / HashMap | `SubarraySumEqualsK.java` | Counts subarrays that sum to `k` using prefix sum and a hashmap to store frequencies. |
+
 
 ---
 
