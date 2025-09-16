@@ -8,11 +8,11 @@ Approach: Two-Pointer / In-place Overwrite
 - The order of elements can be changed. It doesn't matter what values are left beyond the returned length.
 
 Strategy:
-- Use a `count` pointer to track the position to overwrite.
+- Use a `write` pointer to track the position to overwrite.
 - Iterate through the array:
-    - If the current element is NOT equal to `val`, assign it to `nums[count]` and increment `count`.
+    - If the current element is NOT equal to `val`, assign it to `nums[write++]` (while incrementing `write`).
     - If it's equal to `val`, skip it.
-- The first `count` elements of the array will now be free of `val`.
+- The first `write` elements of the array will now be free of `val`.
 
 Time Complexity: O(n)  
 Space Complexity: O(1)
@@ -28,23 +28,12 @@ Date  : September 12, 2025
 
 class RemoveElement {
     public int removeElement(int[] nums, int val) {
-        int count = 0;
-
-        for(int i = 0; i < nums.length; i++){
+       int write = 0;
+       for(int i = 0; i < nums.length; i++){
             if(nums[i] != val){
-                nums[count] = nums[i];
-                count++;
+                nums[write++] = nums[i];
             }
-        }
-        /*int valFreq = 0;
-        for(int i = 0; i < nums.length; i++){
-            if(nums[i] == val){
-                valFreq++;
-            }else{
-                nums[i - valFreq] = nums[i];
-                count++;
-            }
-        }*/
-        return count;
+       }
+       return write;
     }
 }
