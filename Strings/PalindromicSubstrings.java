@@ -13,7 +13,7 @@ Approach: Expand Around Center
 Strategy:
 - For each character in the string:
   - Expand around (i, i) to count all odd-length palindromes.
-  - Expand around (i, i+1) to count all even-length palindromes.
+  - Expand around (i, i+1) to count all even-length palindromes.        
 - Each expansion checks while `left >= 0`, `right < n`, and `s[left] == s[right]`.
 
 Helper Method:
