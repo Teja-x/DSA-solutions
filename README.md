@@ -80,7 +80,9 @@ Let’s grow together 💪
 | Arrays / In-place | `RemoveDuplicatesFromSortedArray.java` | Removes duplicates in sorted array in-place and returns new length using a write pointer. |
 | Sliding Window | `MinimumSizeSubarraySum.java` | Finds minimum length subarray with sum ≥ target using variable-sized sliding window. |
 | Prefix Sum / HashMap | `SubarraySumEqualsK.java` | Counts subarrays that sum to `k` using prefix sum and a hashmap to store frequencies. |
-
+| Sliding Window / Array | `LongestSubarrayAfterDeletingOne.java`    | Finds the longest subarray of 1s after deleting one element using sliding window and frequency count. Handles edge case where entire array is 1s. |
+| Sliding Window / Array | `LongestMountainInArray.java`             | Detects mountain peaks and expands left and right to calculate mountain length. Returns max valid mountain length (length ≥ 3).                   |
+| Sliding Window / Array | `MaxConsecutiveOnesIII.java`              | Finds the maximum number of consecutive 1s in a binary array if at most `k` 0s can be flipped using sliding window with frequency array.         |
 
 ---
 
