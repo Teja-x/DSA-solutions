@@ -83,7 +83,12 @@ Let’s grow together 💪
 | Sliding Window / Array | `LongestSubarrayAfterDeletingOne.java`    | Finds the longest subarray of 1s after deleting one element using sliding window and frequency count. Handles edge case where entire array is 1s. |
 | Sliding Window / Array | `LongestMountainInArray.java`             | Detects mountain peaks and expands left and right to calculate mountain length. Returns max valid mountain length (length ≥ 3).                   |
 | Sliding Window / Array | `MaxConsecutiveOnesIII.java`              | Finds the maximum number of consecutive 1s in a binary array if at most `k` 0s can be flipped using sliding window with frequency array.         |
-
+| Stack             | `ValidParentheses.java`                | Uses a stack to match open/close parentheses. Push opening brackets, pop and validate against closing ones. Checks for leftover items in the stack.         |
+| Stack             | `MinStack.java`                        | Maintains two stacks: one for normal push/pop, one for tracking current min. Push same min again if not replaced. Enables constant-time getMin().           |
+| Monotonic Stack   | `DailyTemperatures.java`               | For each temp, pop lower temps and calculate wait days. Push indices into stack to track unresolved temps. Works forward or reverse.                         |
+| Monotonic Stack   | `NextGreaterElementI.java`             | Finds next greater element for each in `nums1` from `nums2`. Uses stack to track decreasing elements, stores next greater in map, then maps to `nums1`.     |
+| Stack             | `EvaluateRPN.java`                     | Evaluates RPN (postfix notation) expressions using a stack. Pops last two operands and applies operation. Supports all 4 basic arithmetic ops.               |
+| Greedy + Sorting  | `CarFleet.java`                        | Sorts cars by position ascending. Iterates in reverse, calculating time to reach target. Increments fleet if new car can’t catch up with one ahead.          |
 ---
 
 
