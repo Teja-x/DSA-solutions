@@ -89,6 +89,9 @@ Let’s grow together 💪
 | Monotonic Stack   | `NextGreaterElementI.java`             | Finds next greater element for each in `nums1` from `nums2`. Uses stack to track decreasing elements, stores next greater in map, then maps to `nums1`.     |
 | Stack             | `EvaluateRPN.java`                     | Evaluates RPN (postfix notation) expressions using a stack. Pops last two operands and applies operation. Supports all 4 basic arithmetic ops.               |
 | Greedy + Sorting  | `CarFleet.java`                        | Sorts cars by position ascending. Iterates in reverse, calculating time to reach target. Increments fleet if new car can’t catch up with one ahead.          |
+| Queue/Stack      | `ImplementQueueUsingStacks.java`     | Implements a queue using two stacks (`inStack`, `outStack`). Transfers elements only when needed to maintain FIFO order. Push O(1), pop amortized O(1). |
+| Queue/Stack      | `ImplementStackUsingQueues.java`     | Implements a stack using a single queue (rotate elements on push) or two queues (costly push, cheap pop). Maintains LIFO behavior.               |
+| Stack Simulation | `AsteroidCollision.java`             | Simulates asteroid collisions using a stack. Right-moving asteroids pushed directly; left-moving ones collide with stack top until resolved.     |
 ---
 
 
