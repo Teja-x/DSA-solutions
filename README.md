@@ -92,6 +92,8 @@ Let’s grow together 💪
 | Queue/Stack      | `ImplementQueueUsingStacks.java`     | Implements a queue using two stacks (`inStack`, `outStack`). Transfers elements only when needed to maintain FIFO order. Push O(1), pop amortized O(1). |
 | Queue/Stack      | `ImplementStackUsingQueues.java`     | Implements a stack using a single queue (rotate elements on push) or two queues (costly push, cheap pop). Maintains LIFO behavior.               |
 | Stack Simulation | `AsteroidCollision.java`             | Simulates asteroid collisions using a stack. Right-moving asteroids pushed directly; left-moving ones collide with stack top until resolved.     |
+| Stack/Math Parsing | `BasicCalculatorII.java`       | Evaluates arithmetic expressions with +, -, *, / using a stack. Tracks last operator and builds numbers digit by digit. |
+| Monotonic Stack    | `RemoveKDigits.java`           | Uses a monotonic stack to remove `k` digits, ensuring smallest possible number. Handles leading zeros and returns "0" if empty. |
 ---
 
 
