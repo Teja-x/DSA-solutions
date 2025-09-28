@@ -94,6 +94,10 @@ Let’s grow together 💪
 | Stack Simulation | `AsteroidCollision.java`             | Simulates asteroid collisions using a stack. Right-moving asteroids pushed directly; left-moving ones collide with stack top until resolved.     |
 | Stack/Math Parsing | `BasicCalculatorII.java`       | Evaluates arithmetic expressions with +, -, *, / using a stack. Tracks last operator and builds numbers digit by digit. |
 | Monotonic Stack    | `RemoveKDigits.java`           | Uses a monotonic stack to remove `k` digits, ensuring smallest possible number. Handles leading zeros and returns "0" if empty. |
+| Monotonic Stack    | `NextGreaterElementII.java`       | Finds the next greater element for each number in a circular array using a stack. Returns -1 if none exists. |
+| Monotonic Stack    | `StockSpanner.java`               | Online stock span problem. Uses stack of [price, span] pairs to compute span in amortized O(1). |
+| Stack/Strings      | `SimplifyPath.java`               | Simplifies a Unix-style file path using a stack, handling `.` , `..`, and redundant slashes.     |
+| Monotonic Stack    | `LargestRectangleInHistogram.java`| Computes largest rectangle in histogram using monotonic increasing stack. Efficient O(n) solution. |
 ---
 
 
