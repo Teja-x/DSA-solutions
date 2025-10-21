@@ -13,6 +13,8 @@ Each topic has its own folder for clarity:
 
 - `Arrays/` → Problems related to array manipulation
 - `Strings/` → Problems involving string operations
+- `Stacks_Queues/` → Problems involving stacks & queues operations
+- `LinkedLists/` → Problems involving linked lists
 - (More coming soon: LinkedLists, Recursion, HashMaps, Trees, etc.)
 
 ---
@@ -98,6 +100,11 @@ Let’s grow together 💪
 | Monotonic Stack    | `StockSpanner.java`               | Online stock span problem. Uses stack of [price, span] pairs to compute span in amortized O(1). |
 | Stack/Strings      | `SimplifyPath.java`               | Simplifies a Unix-style file path using a stack, handling `.` , `..`, and redundant slashes.     |
 | Monotonic Stack    | `LargestRectangleInHistogram.java`| Computes largest rectangle in histogram using monotonic increasing stack. Efficient O(n) solution. |
+| Linked List     | `ReverseLinkedList.java`           | Reverses a singly linked list recursively or iteratively using pointer manipulation.          |
+| Linked List     | `MergeTwoSortedLists.java`         | Merges two sorted linked lists into one sorted list using a dummy head pointer.               |
+| Linked List     | `LinkedListCycle.java`             | Detects whether a linked list contains a cycle using Floyd’s Tortoise and Hare algorithm.     |
+| Linked List     | `LinkedListCycleII.java`           | Returns the node where a linked list cycle begins using Floyd’s cycle detection technique.    |
+
 ---
 
 
