@@ -104,6 +104,13 @@ Let’s grow together 💪
 | Linked List     | `MergeTwoSortedLists.java`         | Merges two sorted linked lists into one sorted list using a dummy head pointer.               |
 | Linked List     | `LinkedListCycle.java`             | Detects whether a linked list contains a cycle using Floyd’s Tortoise and Hare algorithm.     |
 | Linked List     | `LinkedListCycleII.java`           | Returns the node where a linked list cycle begins using Floyd’s cycle detection technique.    |
+| Linked List  | `RemoveNthNodeFromEndOfList.java`    | Removes the n-th node from the end using fast/slow pointers and a dummy head (one pass). |
+| Linked List  | `PalindromeLinkedList.java`          | Checks if a list is a palindrome by reversing the first half in-place and comparing halves. |
+| Linked List  | `ReorderList.java`                   | Reorders list as L0→Ln→L1→Ln-1… by splitting, reversing second half, and merging alternately. |
+| Linked List  | `AddTwoNumbers.java`                 | Adds two numbers represented by reverse-order linked lists; handles carry and builds result. |
+| Linked List  | `IntersectionOfTwoLinkedLists.java`  | Finds intersection node by aligning lengths (or via cycle trick); O(1) space. |
+| Linked List  | `OddEvenLinkedList.java`             | Groups odd-indexed nodes followed by even-indexed nodes in-place while preserving order. |
+
 
 ---
 
