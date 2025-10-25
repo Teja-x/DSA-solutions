@@ -110,6 +110,12 @@ Let’s grow together 💪
 | Linked List  | `AddTwoNumbers.java`                 | Adds two numbers represented by reverse-order linked lists; handles carry and builds result. |
 | Linked List  | `IntersectionOfTwoLinkedLists.java`  | Finds intersection node by aligning lengths (or via cycle trick); O(1) space. |
 | Linked List  | `OddEvenLinkedList.java`             | Groups odd-indexed nodes followed by even-indexed nodes in-place while preserving order. |
+| Linked List  | `CopyRandomPointerList.java`                 | Creates a deep copy of a linked list with `random` pointers using O(1) space by interweaving clone nodes. |
+| Linked List  | `SortList.java`                              | Sorts the linked list in O(n log n) using merge sort (split via slow/fast pointers + merge step). |
+| Linked List  | `RotateList.java`                            | Rotates the list right by *k* places by making it circular, adjusting k, and breaking at the correct position. |
+| Linked List  | `RemoveDuplicatesFromSortedListII.java`      | Removes all nodes that appear more than once in a sorted list (keeps only unique values). Uses a dummy pointer. |
+| Linked List  | `MergeKSortedLists.java`                     | Efficiently merges K sorted lists using pairwise merge doubling technique (or min-heap alternative). |
+
 
 
 ---
