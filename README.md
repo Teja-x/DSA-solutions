@@ -115,6 +115,21 @@ Let’s grow together 💪
 | Linked List  | `RotateList.java`                            | Rotates the list right by *k* places by making it circular, adjusting k, and breaking at the correct position. |
 | Linked List  | `RemoveDuplicatesFromSortedListII.java`      | Removes all nodes that appear more than once in a sorted list (keeps only unique values). Uses a dummy pointer. |
 | Linked List  | `MergeKSortedLists.java`                     | Efficiently merges K sorted lists using pairwise merge doubling technique (or min-heap alternative). |
+| Binary Search | `BinarySearch.java` | Finds the target in a sorted array using standard binary search. |
+| Binary Search | `FirstBadVersion.java` | Finds the first bad version using binary search on version range. |
+| Binary Search | `SearchInsertPosition.java` | Returns the index to insert the target in sorted order. |
+| Binary Search | `FindMinInRotatedSortedArray.java` | Finds the smallest element in a rotated sorted array. |
+| Binary Search | `SearchInRotatedSortedArray.java` | Searches for target in rotated sorted array using half-sorted logic. |
+| Binary Search | `FindPeakElement.java` | Finds a peak element by comparing mid and mid+1 slopes. |
+| Binary Search | `KokoEatingBananas.java` | Finds minimum eating speed using binary search on possible speeds. |
+| Binary Search | `TimeBasedKeyValueStore.java` | Stores timestamped key-values and retrieves latest <= given timestamp using binary search. |
+| Binary Search | `HIndexII.java` | Finds H-Index in sorted citations using binary search. |
+| Sorting / Merge | `MergeIntervals.java` | Merges overlapping intervals after sorting by start time. |
+| Sorting / Insert | `InsertInterval.java` | Inserts and merges a new interval into sorted non-overlapping list. |
+| Sorting / Greedy | `EraseOverlapIntervals.java` | Removes minimum intervals to eliminate overlaps. |
+| Binary Search | `FindKClosestElements.java` | Finds k elements closest to x using binary search on window start. |
+| Greedy / Sorting | `MinimumNumberOfArrowsToBurstBalloons.java` | Uses greedy sorting by end points to minimize arrows needed. |
+
 
 
 
